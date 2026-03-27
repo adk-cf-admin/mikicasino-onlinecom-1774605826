@@ -1,0 +1,5 @@
+User-agent: * 
+Allow: / 
+Disallow: /casino/
+Host: https://mikicasino-online.com/
+Sitemap: https://mikicasino-online.com/sitemap.xml

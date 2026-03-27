@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1774604435-logo-29-2.svg" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Miki Casino: Games, Bonuses, Live Tables, Tournaments, and Payouts</title>
+    <meta name="description"
+          content="Miki Casino is an online casino with bonuses, live games, slots, tournaments, a VIP program, flexible payments, fast payouts, and 24/7 customer support.">
+    <link rel="canonical" href="https://mikicasino-online.com">
+    <meta property="og:title" content="Miki Casino: Games, Bonuses, Live Tables, Tournaments, and Payouts">
+    <meta property="og:description"
+          content="Miki Casino is an online casino with bonuses, live games, slots, tournaments, a VIP program, flexible payments, fast payouts, and 24/7 customer support.">
+    <meta property="og:url" content="https://mikicasino-online.com">
+    <meta property="og:site_name" content="Miki Casino: Games, Bonuses, Live Tables, Tournaments, and Payouts">
+    <meta property="og:locale" content="en-AU">
+    <meta property="og:image" content="_assets/images/1774604458-mikk.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="mikicasino-online.com">
+    <meta name="twitter:title" content="Miki Casino: Games, Bonuses, Live Tables, Tournaments, and Payouts">
+    <meta name="twitter:description"
+          content="Miki Casino is an online casino with bonuses, live games, slots, tournaments, a VIP program, flexible payments, fast payouts, and 24/7 customer support.">
+    <meta name="twitter:image" content="_assets/images/1774604458-mikk.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1774604463-favicon-ico.ico" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="en-AU">
+
+    <link rel="apple-touch-icon" href="_assets/images/1774604353-favicon-ico.ico" sizes="96x96">
+    <link rel="icon" href="_assets/images/1774604353-favicon-ico.ico" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1774604532-mikk.webp" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://mikicasino-online.com" />
+    <link rel="alternate" hreflang="en" href="https://mikicasino-online.com" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#364759"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#D32D7D"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#44596f"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#364759"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#D32D7D"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#ffffff"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://mikicasino-online.com" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1774604435-logo-29-2.svg" alt="Miki Casino Logo" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="Sign Up" id="navSignUp"> Sign Up </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label="Play Now" id="navPlayNow"> Play Now </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exclusive welcome offer of</p>
+                            <p class="heroText heroTextMobile">Exclusive welcome bonus of</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Play game"><span
+                            class="heroButton btn btn--large">Claim Bonus</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Miki — Bonuses, Live Casino, Tournaments, and VIP Program</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top Casinos <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> All Casino </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Bonus Details</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Bonuses</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Rate</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Free Spins</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">More Info</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Get</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Refresh
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Advantages</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup"></li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Thousands of games and hundreds of live tables</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Welcome bonuses, free spins, and starter gifts</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">VIP levels with cashback and rebate rewards</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Flexible payments, crypto support, and fast processing</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">24/7 live chat and clear navigation</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Tournaments, leaderboards, and recurring special offers</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Slots, live casino, and sports in one account</p>
+                                </li>
+                                <li class="providersGroup">At Miki Casino, we focus on variety, convenience, and momentum, bringing casino play, live tables, bonuses, and tournament features into one profile. About us, the key idea is simple: we combine a large game library, flexible promotional formats, and an easy interface so the experience feels rich and well-structured from the first session.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Know more"><span
+                                class="advantagesButton btn btn--large">Know more</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Miki Casino App</h2><img
+                                class="advantagesMobilePhone" src="https://paf-casino-online.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile.cd4410fa.webp&amp;w=384&amp;q=75" title="Miki Casino Mobile"
+                                alt="Miki Casino App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Miki Casino Mobile App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Miki Casino Mobile App" title="Miki Casino Mobile App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Popular Games</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="All Games"><span
+                            class="gamesButton btn btn--large">All Games</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">About Miki Casino</h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">Miki Casino stands out because we combine multiple welcome formats, ongoing promotions, and VIP rewards inside one ecosystem. We also stand apart through our live selection, recurring tournaments, and clear bonus tracking inside the account area.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Welcome Bonus — up to $1,000</li>
+                                        <li class="historyItem">Boosted Offer — 400% up to $80 + 40 FS</li>
+                                        <li class="historyItem">VIP Cashback — up to 20%, rebate up to 0.35%</li>
+                                    </ul>
+                                    <p class="historyDescription">Miki Casino is a space where we bring together online casino play, live games, and a sportsbook section inside one account. We focus on range, so the lobby combines slots, table games, crash titles, and live tables. In our live area, players can access roulette, blackjack, baccarat, poker, Dragon Tiger, and game shows. </p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1774604586-mac-miki.webp" alt="History" title="Miki Casino Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">We put special attention on game-show entertainment because it adds a more visual and interactive layer to the experience. Our library includes thousands of games, while the live section is represented by hundreds of tables and studio streams. We work with recognized providers such as NetEnt, Play’n GO, Pragmatic Play, Evolution, and Ezugi. That mix allows our casino to combine classic mechanics, modern slots, and rich live content in one place. For new users, we use several welcome mechanics, including bonus packages, free spins, and starter offers. For ongoing activity, we add tournaments, weekly and monthly campaigns, and seasonal promotions. Our promo area regularly features birthday rewards, boosted offers, and dedicated campaigns for live play and crypto deposits. Leaderboards add extra depth because they turn an ordinary session into a competition for ranking and prizes. We also run a loyalty program with VIP levels, cashback, rebate, and personal support on higher statuses. Progress can be tracked inside the account, so players can see how their level develops and which rewards are already unlocked. We aim to keep navigation simple, making it easy to move between slots, live play, promotions, and profile tools. On the payment side, we support traditional methods, e-wallets, crypto, and selected payment services. Finally, Miki Casino is backed by round-the-clock support, which helps make the overall platform feel complete and practical for regular use.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">: your comfort — rules, security, support</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;"> Miki Casino Visit Rules and Responsible Play </h3> <p> Welcome to Miki Casino: we provide access only to adult users who complete registration and agree to the active rules of use. Visiting our casino requires creating a personal account with accurate information. We expect every user to operate only their own profile and never share access with third parties. When using the platform, correct personal details matter because identity and address verification are part of our standard control process. We may request documents to confirm age, identity, and payment ownership. Visiting our casino also means following fair play rules, financial control procedures, and bonus conditions. We do not allow duplicate accounts, use of someone else’s cards, or attempts to bypass system restrictions. We also prohibit any interference with the site, abuse of promotions, use of tools for unfair advantage, or other fraudulent behavior. During play, gambling should be treated as entertainment rather than a source of income. We recommend setting a comfortable budget in advance and monitoring time spent on the platform. At the first sign of lost control, it is better to take a break and contact support for limits or self-exclusion. Our responsible play rules also stress that chasing losses is not the right approach. We encourage users to review betting history, deposit activity, and session time regularly. For additional account protection, only personal payment methods should be used, and login security should be monitored carefully. If gambling starts affecting mood, finances, or daily life, the right step is to pause and seek support. We aim to maintain a controlled and transparent environment where the rules of access are clear from day one. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Access Conditions </h4> <ul> <li>• Registration is required for full access to games and payments.</li> <li>• Only real, verifiable personal details should be used.</li> <li>• Financial operations may require KYC verification.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> What Is Not Allowed </h4> <ul> <li>• Duplicate accounts and use of third-party payment methods are prohibited.</li> <li>• Bypassing limits, bonus rules, or technical restrictions is not allowed.</li> <li>• Fraud, collusion, and unfair advantage are strictly forbidden.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Responsible Play </h4> <ul> <li>• Gambling should be treated as entertainment only.</li> <li>• Budget, time, and session frequency should remain under control.</li> <li>• Breaks and self-exclusion can be requested when needed.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Verification and Safety </h4> <ul> <li>• Identity and address documents may be requested.</li> <li>• Age and payment data are subject to verification.</li> <li>• Betting and transaction history can be used to monitor account activity.</li> </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Miki Casino Visit Rules and Responsible Play </h3> <p> Welcome to Miki Casino: we provide access only to adult users who complete registration and agree to the active rules of use. Visiting our casino requires creating a personal account with accurate information. We expect every user to operate only their own profile and never share access with third parties. When using the platform, correct personal details matter because identity and address verification are part of our standard control process. We may request documents to confirm age, identity, and payment ownership. Visiting our casino also means following fair play rules, financial control procedures, and bonus conditions. We do not allow duplicate accounts, use of someone else’s cards, or attempts to bypass system restrictions. We also prohibit any interference with the site, abuse of promotions, use of tools for unfair advantage, or other fraudulent behavior. During play, gambling should be treated as entertainment rather than a source of income. We recommend setting a comfortable budget in advance and monitoring time spent on the platform. At the first sign of lost control, it is better to take a break and contact support for limits or self-exclusion. Our responsible play rules also stress that chasing losses is not the right approach. We encourage users to review betting history, deposit activity, and session time regularly. For additional account protection, only personal payment methods should be used, and login security should be monitored carefully. If gambling starts affecting mood, finances, or daily life, the right step is to pause and seek support. We aim to maintain a controlled and transparent environment where the rules of access are clear from day one. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Access Conditions </h4> <ul> <li>• Registration is required for full access to games and payments.</li> <li>• Only real, verifiable personal details should be used.</li> <li>• Financial operations may require KYC verification.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> What Is Not Allowed </h4> <ul> <li>• Duplicate accounts and use of third-party payment methods are prohibited.</li> <li>• Bypassing limits, bonus rules, or technical restrictions is not allowed.</li> <li>• Fraud, collusion, and unfair advantage are strictly forbidden.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Responsible Play </h4> <ul> <li>• Gambling should be treated as entertainment only.</li> <li>• Budget, time, and session frequency should remain under control.</li> <li>• Breaks and self-exclusion can be requested when needed.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Verification and Safety </h4> <ul> <li>• Identity and address documents may be requested.</li> <li>• Age and payment data are subject to verification.</li> <li>• Betting and transaction history can be used to monitor account activity.</li> </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Miki Casino Deposits and Withdrawals </h3> <p> At Miki Casino, we aim to balance speed, method variety, and payment security. Our cashier is built around cards, bank transfers, e-wallets, cryptocurrency, and selected specialist services. Public brand materials also reference Skrill, Neteller, PayPal, Visa, Mastercard, Jeton Wallet, Jeton Cash, BT Vouchers, and MyCrypto. This gives users room to choose a payment route that fits their usual habits. Most deposits are credited almost instantly after confirmation. If funds do not appear right away, we recommend checking browser status, connection quality, payment details, and then contacting support if needed. Withdrawals are requested from the account area and then move through approval and review. According to the official FAQ, funds may arrive in as little as about 5 minutes after approval, although in some cases the process can extend to 5 business days depending on the bank and verification status. Crypto transactions and part of the e-wallet segment are typically the fastest. Cards and bank transfers usually require more time because of processing layers and banking cycles. For financial safety, we apply KYC checks for identity and address as well as ownership checks on payment data. This reduces the risk of disputed activity and helps protect accounts during larger payouts. Exact fees, method availability, and cashier limits may depend on the payment window and account version. Public Miki reviews most often mention high standard payout limits, while bonus-related winnings can be subject to a separate monthly cashout cap. Overall, our banking flow is designed around quick deposits, predictable processing, and verifiable security. </p> <br> <table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px"> <thead> <tr style="background-color: #364759;"> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Method</th> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Deposit speed</th> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Payout after approval</th> </tr> </thead> <tbody> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Visa / Mastercard</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Almost instant</td> <td style="border: 1px solid #ffffff; padding: 10px;">1–5 business days</td> </tr> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Skrill / Neteller / PayPal</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Almost instant</td> <td style="border: 1px solid #ffffff; padding: 10px;">24–72 hours</td> </tr> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bank Transfer</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Instant to a few hours</td> <td style="border: 1px solid #ffffff; padding: 10px;">1–5 business days</td> </tr> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Cryptocurrency</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Almost instant</td> <td style="border: 1px solid #ffffff; padding: 10px;">From 5 minutes to a few hours</td> </tr> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Jeton Wallet / Jeton Cash / BT Vouchers</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Fast, usually instant</td> <td style="border: 1px solid #ffffff; padding: 10px;">A few hours to 72 hours</td> </tr> </tbody> </table> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Minimum Withdrawal and Limits </h4> <ul> <li>• Minimum withdrawal: usually from $20, depending on the method.</li> <li>• Standard daily withdrawal limit: up to $10,000.</li> <li>• Standard monthly withdrawal limit: up to $100,000.</li> <li>• Bonus-play withdrawal cap: up to $20,000 per month.</li> </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Miki Casino Customer Support </h3> <p> At Miki Casino, we treat support as a core part of the service rather than an extra feature. The main focus is live chat because it is built directly into the interface and positioned for quick access. This is the fastest way to reach us about login issues, bonuses, deposits, and technical errors. The official Miki FAQ states that customer support is available 24/7. We also provide an email support route, which is practical for verification requests, financial checks, and more complex account matters. Public-facing local pages reference both live chat and email support. Phone contact is not emphasized as the main public route, so in day-to-day use the fastest path is usually chat or email. This structure is typical for modern online casinos where response speed and written tracking both matter. Service quality is strengthened by a detailed FAQ covering registration, bonuses, deposits, withdrawals, interrupted rounds, and game safety. We also support multiple localized site versions, which makes communication more comfortable depending on the interface version being used. Miki materials specifically reference local-language support, and VIP pages mention native staff for some site versions. That means communication is not built only around generic scripts but also around localized assistance. For urgent issues involving access or balances, live chat is usually the most effective route. For documents and verification, email often works better because it supports attachments and detailed written context. If the matter is simple, the FAQ can often resolve it without waiting for an agent. Overall, Miki Casino support is structured around 24/7 availability, fast digital channels, and multilingual service logic. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Contact Channels </h4> <ul> <li>• Live chat is the main and fastest support route.</li> <li>• Email is useful for verification and finance-related cases.</li> <li>• Phone is not the primary public contact channel and may depend on the service version.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Response Speed and Quality </h4> <ul> <li>• Live chat is available 24/7.</li> <li>• The FAQ covers most standard scenarios.</li> <li>• Email works well for detailed issues and attachments.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Language Availability </h4> <ul> <li>• Miki runs several localized versions of the site.</li> <li>• Support adapts to the interface language.</li> <li>• Native staff is mentioned for selected versions.</li> </ul><br>
+</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Software Providers </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Entertainment and Gaming at Miki Casino</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;"> Miki Casino Loyalty Program and VIP Levels </h3> <p> The Miki Casino loyalty program is designed to reward activity on an ongoing basis rather than as a one-time feature. Players are included in the VIP system automatically after registration, so there is no separate application step. Progress is based on betting volume across the supported play environment. Miki brand materials state that real-money wagers count at 100%, while bonus-money wagers count at 10%, which makes progression more flexible. Current status and the path to the next level can be tracked in the My Promotion section. The reward structure is centered around cashback, rebate, bonuses, and upgraded support. The program includes seven levels: Novice, Regular, Bronze, Silver, Gold, Platinum, and Ultimate. In brand materials, the stated wagering thresholds are $0, $200, $6,000, $25,000, $100,000, $300,000, and $1,000,000. This creates a ladder that works both for a careful start and for long-term active play. At higher levels, cashback is credited more frequently and the related conditions become lighter. Gold and above are also linked to personal-manager style support in Miki materials. The maximum stated cashback level reaches 20%, while rebate goes up to 0.35%. There are also practical details to remember: cashback is available for 72 hours, while the minimum rebate amount starts from $1 and the rebate calculation cap is $5 per single bet. That makes the program feel operational rather than purely decorative. We also place value on extra VIP perks such as exclusive bonuses, prioritized request handling, VIP events, and special gifts. Overall, the Miki Casino loyalty model works both for gradual status building and for systematic use of recurring returns and service advantages. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Registration Conditions </h4> <ul> <li>• Membership starts automatically after account registration.</li> <li>• There is no separate participation fee.</li> <li>• Real-money wagers count 100%, while bonus-money wagers count 10%.</li> <li>• Progress and current level are visible in the My Promotion section.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Levels and How to Reach Them </h4> <ul> <li>• Novice — from $0 in wagers, the starting level after sign-up.</li> <li>• Regular — from $200 in wagers, the first step into recurring rewards.</li> <li>• Bronze — from $6,000 in wagers, with weekly cashback and lighter conditions.</li> <li>• Silver — from $25,000 in wagers, with stronger percentages across casino, live, and sports.</li> <li>• Gold — from $100,000 in wagers, with daily cashback and personal support access.</li> <li>• Platinum — from $300,000 in wagers, with even stronger returns and higher priority.</li> <li>• Ultimate — from $1,000,000 in wagers, with maximum cashback and 0x cashback wagering.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Available Bonuses and Perks </h4> <ul> <li>• Cashback up to 20% — the highest return level at Ultimate.</li> <li>• Rebate up to 0.35% — earned from betting activity.</li> <li>• Credit frequency — from monthly to daily depending on status.</li> <li>• Cashback wagering — from 6x at Novice down to 0x at Ultimate.</li> <li>• VIP manager — referenced for higher statuses starting from Gold.</li> <li>• Exclusive bonuses and promotions — unlocked as status grows.</li> <li>• Priority support, VIP events, and gifts — additional service perks.</li> </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Miki Casino Bonuses, Promotions, Special Offers, and Tournaments </h3> <p> At Miki Casino, the bonus ecosystem goes beyond the loyalty program alone. For new users, we run several welcome formats depending on the promotion page. Current Miki promo sources mention a 100% bonus up to $1,000 and a boosted offer of 400% up to $80 plus 40 free spins with a qualifying deposit of $10–$20. Brand blog materials also describe a welcome package with combined starting value reaching up to $4,000 across early deposits. For selected entry flows, Miki materials also reference a $45 no-deposit bonus and 25 free spins via brand codes, plus 200 free spins worth about $62 with a first deposit of $20 or more. That allows us to present more than one style of starting offer. Another promo layer comes from live and sports gifts: the Miki bonus page mentions a $10 gift for Evolution Live Roulette and a $10 free bet for the sportsbook section. We also feature a birthday offer, listed on the official promo page as an ongoing campaign mechanic. For returning sessions, brand materials reference a 5% deposit boost on repeat funding. In blog and local pages, Miki also highlights weekly free-spin activity, including a Wednesday free-spin reward for depositing users. In addition, VIP-related materials describe a daily 20% crypto deposit bonus and a 50% weekend crypto bonus, while sports promo materials mention a 5% monthly cashback on net losses. Tournaments play a major role because they add both reward value and a competitive layer through leaderboard mechanics. Miki runs slot tournaments and baccarat tournaments, and prizes are automatically credited after events end. On a published monthly baccarat tournament page, the rules described prize crediting in the form of a 3x wagering cash bonus, and the leaderboard showed ranked positions with real prize amounts. This keeps the promo area from feeling one-off and instead makes it look continuously refreshed. We use bonuses not only for the start but also for ongoing engagement through free spins, tournament series, live gifts, sportsbook free bets, and themed campaigns. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Offers Available Beyond Loyalty </h4> <ul> <li>• Welcome Bonus — up to $1,000: the main starter package on official promo pages.</li> <li>• Boosted Offer — 400% up to $80 + 40 FS: activated with a $10–$20 deposit.</li> <li>• Welcome Package — up to $4,000: an extended start path described in brand blog materials.</li> <li>• No Deposit Bonus — $45: an additional entry bonus mentioned in brand content.</li> <li>• 25 Free Spins: added through a bonus-code activation flow.</li> <li>• 200 Free Spins worth about $62: available with a first deposit from $20.</li> <li>• $10 Live Roulette Gift: linked to Evolution Live Roulette.</li> <li>• $10 Free Bet: a separate sportsbook promotion.</li> <li>• Birthday Bonus: an ongoing celebratory campaign.</li> <li>• 5% Deposit Boost: a bonus for repeat deposits.</li> <li>• 20% Crypto Deposit Bonus: a daily crypto-focused offer.</li> <li>• 50% Weekend Crypto Bonus: a stronger weekend variant.</li> <li>• 5% Monthly Cashback: a separate sports-facing promo mechanic.</li> <li>• Slot and Baccarat Tournaments: recurring competitions with leaderboards and prizes.</li> <li>• Tournament prizes as 3x wagering cash bonus: credited automatically after completion.</li> </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Miki Casino Games and Betting Options </h3> <p> At Miki Casino, we build the product around the idea of one universal account. That means a player can access slots, table games, live casino, and the sportsbook inside the same platform. Our slot lobby includes new releases, popular titles, themed series, Megaways games, jackpot options, and buy-feature content. Miki navigation also highlights crash games, adding a faster and more arcade-style betting format. For classic casino fans, we offer table games with a strong focus on roulette, blackjack, baccarat, and poker variations. The live section is especially broad: open Miki materials point to hundreds of live games, while brand-related reviews mention more than 250 live titles and roughly 400 games across the live offer. Within live categories, we provide Roulette, Blackjack, Baccarat, Poker, Dragon Tiger, and Game Shows. Brand materials also directly mention shows such as Monopoly Live and the Livespins format, where stream-based interaction is part of the experience. That keeps our live offer from feeling limited to standard card tables. In provider terms, Miki references names such as NetEnt, Play’n GO, Pragmatic Play, Evolution, and Ezugi. This helps us balance classic slots, HD live streams, and flexible betting mechanics across the platform. In card games, players can find both standard and faster variants, including speed baccarat and several live roulette styles. For users who prefer higher tempo, crash formats and live-show titles create a different rhythm with shorter play cycles. In betting terms, Miki is not just a casino product: brand descriptions clearly include sportsbook and live odds. In the sports section, blog materials mention around 50 sports categories, which means the platform combines casino content with classic betting coverage. Overall, our offer spans relaxed slot sessions, live tables, tournament formats, and full sportsbook betting inside one ecosystem. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Main Game Categories </h4> <ul> <li>• Slots — new releases, popular titles, jackpots, Megaways, buy-features, and themed series.</li> <li>• Crash Games — a fast betting format built around short sessions.</li> <li>• Table Games — roulette, blackjack, baccarat, poker, and classic variants.</li> <li>• Live Casino — hundreds of tables and shows with real dealers.</li> <li>• Game Shows — an entertainment-focused live format with visual presentation.</li> <li>• Dragon Tiger — a dedicated live category.</li> <li>• Sportsbook — pre-match and live betting inside the same ecosystem.</li> </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Miki Casino Minimum and Maximum Bets </h3> <p> At Miki Casino, we support both lower and higher betting ranges so the lobby remains practical for different play styles. Exact betting limits depend on the specific game, provider, and table format, so values may differ across the catalog. Below is a practical overview based on the categories where public limits or range indicators are available. </p> <br> <table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px"> <thead> <tr style="background-color: #364759;"> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Game Type</th> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Min Bet</th> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Max Bet</th> </tr> </thead> <tbody> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Roulette</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">$0.10</td> <td style="border: 1px solid #ffffff; padding: 10px;">$5,000</td> </tr> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Baccarat</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">From $1 for tournament qualification / table-dependent</td> <td style="border: 1px solid #ffffff; padding: 10px;">$10,000</td> </tr> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Blackjack</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Varies by table</td> <td style="border: 1px solid #ffffff; padding: 10px;">Varies by table</td> </tr> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Slots</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Varies by title</td> <td style="border: 1px solid #ffffff; padding: 10px;">Varies by title</td> </tr> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Crash Games</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Varies by game</td> <td style="border: 1px solid #ffffff; padding: 10px;">Varies by game</td> </tr> <tr > <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Game Shows</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Varies by show and provider</td> <td style="border: 1px solid #ffffff; padding: 10px;">Varies by show and provider</td> </tr> </tbody> </table> <br>
+
+<h3 style = "font-weight: bold;font-size: 32px;">
+Miki Casino Tournaments and Leaderboards: How to Join and Move Higher
+</h3>
+<p>
+At Miki Casino, tournaments and leaderboards add a competitive layer to regular play, where not only results but also steady activity can make a difference. We run tournament events on selected slots and live games, and entry is usually available automatically after logging in and launching a qualifying title. To appear in the rankings, players need to place real-money bets during the tournament period and meet the minimum participation threshold shown in the event rules. Leaderboard points are awarded according to the format of each promotion, but they most often reflect qualifying stake volume, game results, the number of spins or rounds played, and overall activity during the event. In some tournaments, the size of a qualifying win can also matter, which means a strong result may move a player higher much faster. Playing rhythm is important as well, because less active participants can lose ground to players who keep building points consistently. In slot events, the system usually tracks spins, bet amounts, and resulting performance, while live tournaments count suitable rounds and qualifying stakes on selected tables. Players can follow their position directly on the tournament page or inside the leaderboard panel, where current rank, points, and the gap to nearby competitors are shown. If two players reach the same result, the higher place usually goes to the one who achieved it earlier or maintained more consistent activity throughout the event. After the tournament ends, prizes are either credited automatically or released once final results are confirmed, and the reward status appears in the account area. To receive a prize without delays, it is important to complete verification in advance and make sure profile and payment details are fully confirmed. This makes Miki Casino tournaments more than a simple extra feature, turning them into a structured competitive format where timing, consistency, and close leaderboard tracking all matter.
+</p>
+<br>
+<h4 style = "font-weight: bold; font-size: 24px;">
+How to Join
+</h4>
+
+ <ul>
+            <li>• Register and sign in to your account.</li>
+            <li>• Open a game that is included in the current tournament.</li>
+            <li>• Play with real-money stakes during the promotional period.</li>
+            <li>• Check whether entry is automatic or activated from the tournament page.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+How Points Are Calculated
+</h4>
+
+ <ul>
+            <li>• Qualifying bets are counted toward the leaderboard.</li>
+            <li>• In slot tournaments, spins and game results may be included in the scoring.</li>
+            <li>• In live events, suitable rounds and qualifying stakes are usually taken into account.</li>
+            <li>• Larger wins and stronger activity can help increase ranking momentum.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+How to Track Your Position
+</h4>
+
+ <ul>
+            <li>• Your place is shown inside the leaderboard table.</li>
+            <li>• Current points and ranking position are usually visible in real time.</li>
+            <li>• Results update as the tournament progresses.</li>
+            <li>• In tie situations, timing and consistency can affect the final order.</li>
+</ul><br>
+
+<h4 style = "font-weight: bold; font-size: 24px;">
+How to Receive the Prize
+</h4>
+
+ <ul>
+            <li>• Wait for the tournament to end and the final standings to be confirmed.</li>
+            <li>• Check the account area or promotions section for the reward notice.</li>
+            <li>• Make sure account verification is completed in advance.</li>
+            <li>• After approval, the prize is credited according to the event rules.</li>
+</ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>Frequently Asked Questions</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="is_it_allowed_to_have_more_than_one_account_at_miki_casino"/><label
+                            class="faqLabel" for="is_it_allowed_to_have_more_than_one_account_at_miki_casino">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Is it allowed to have more than one account at Miki Casino? </span></label>
+                        <div class="faqContent">
+                            <p>No, our casino follows a one-account-per-user rule. We apply this to keep bonuses, tournaments, and payment activity fair and properly controlled. If duplicate profiles are detected, access to some functions may be limited until the review is complete.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_happens_to_a_bonus_if_i_withdraw_before_meeting_the_requirements"/><label
+                            class="faqLabel" for="what_happens_to_a_bonus_if_i_withdraw_before_meeting_the_requirements">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What happens to a bonus if I withdraw before meeting the requirements? </span></label>
+                        <div class="faqContent">
+                            <p>If a bonus is active, making a withdrawal before completing the wagering conditions usually results in the bonus part and related benefits being removed. We show bonus status and wagering progress inside the account so users can review it in advance. It is always useful to check active offers and their rules before requesting a payout.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_do_bets_from_different_games_count_toward_bonus_wagering"/><label
+                            class="faqLabel" for="how_do_bets_from_different_games_count_toward_bonus_wagering">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How do bets from different games count toward bonus wagering? </span></label>
+                        <div class="faqContent">
+                            <p>In our casino, different game categories may contribute differently to wagering progress. Slots usually provide a stronger contribution, while live games, table games, or selected special formats may count only partially or may not count at all. That is why it is important to check the contribution rules for the relevant category before starting bonus play.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="what_should_i_do_if_a_bet_was_deducted_but_the_result_did_not_appear_immediately"/><label
+                            class="faqLabel" for="what_should_i_do_if_a_bet_was_deducted_but_the_result_did_not_appear_immediately">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> What should I do if a bet was deducted but the result did not appear immediately? </span></label>
+                        <div class="faqContent">
+                            <p>In most cases, the game round is processed automatically and the result appears once the system completes synchronization. We recommend refreshing the page first and checking the balance or transaction history. If the result still does not appear, our team can review the game log and the status of the round.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="how_do_bonus_and_promotional_reward_expiry_periods_work_at_miki_casino"/><label
+                            class="faqLabel" for="how_do_bonus_and_promotional_reward_expiry_periods_work_at_miki_casino">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> How do bonus and promotional reward expiry periods work at Miki Casino? </span></label>
+                        <div class="faqContent">
+                            <p>Each bonus or tournament reward has its own active period, and once that period ends, the offer may no longer be available. We display the expiry timing in the promotion card or in the bonus section so users can see how much time remains. This is especially important for free spins, cash bonuses, and limited-time special offers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://mikicasino-online.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1774604450-logo-29-2.svg" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Miki Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Miki Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Miki Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Miki Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Miki Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Miki Casino" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Miki Casino" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Miki Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Miki Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Miki Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Miki Casino" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Miki Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Miki Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Miki Casino" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Miki Casino" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Miki Casino </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Claim Bonus";
+    var welcomeBonusText = "Welcome bonus";
+    var bonusDetailsButtonText = "Get Bonus";
+    var playNowText = "Play now";
+    var maximumAmountText = "Maximum amount";
+    var wagerText = "Wager";
+    var bonusCodeText = "Bonus Code";
+    var depositText = "";
+    var casinoName = "Miki Casino";
+</script>
+
+</body>
+</html>
